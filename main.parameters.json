@@ -1,0 +1,135 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualMachines_Redis_BullMQ_Prod_VM_name": {
+      "value": "Redis-BullMQ-Prod-VM"
+    },
+    "applicationGateways_ems_node_app_gateway_prod_name": {
+      "value": "ems-node-app-gateway-prod"
+    },
+    "sshPublicKeys_ems_vm_key_pair_prod_name": {
+      "value": "ems-vm-key-pair-prod"
+    },
+    "publicIPAddresses_Postgres_Prod_VM_public_ip_name": {
+      "value": "Postgres-Prod-VM-public-ip"
+    },
+    "containerapps_ems_node_container_app_prod_name": {
+      "value": "ems-node-container-app-prod"
+    },
+    "networkInterfaces_vm2_nic_name": {
+      "value": "vm2-nic"
+    },
+    "userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name": {
+      "value": "ems-celery-worker-container-app-identity-prod"
+    },
+    "virtualNetworks_ems_virtual_network_prod_name": {
+      "value": "ems-virtual-network-prod"
+    },
+    "storageAccounts_emswebappstorageaccount_name": {
+      "value": "emswebappstorageaccount"
+    },
+    "storageAccounts_emsproductiondbackups_name": {
+      "value": "emsproductiondbackups"
+    },
+    "storageAccounts_emsadminwebstorage_name": {
+      "value": "emsadminwebstorage"
+    },
+    "dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name": {
+      "value": "454c340c-51cf-4841-bce7-f0d7aee55663"
+    },
+    "registries_emsnoderegistryv2prod_name": {
+      "value": "emsnoderegistryv2prod"
+    },
+    "userAssignedIdentities_ems_node_container_app_identity_prod_name": {
+      "value": "ems-node-container-app-identity-prod"
+    },
+    "publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name": {
+      "value": "Redis-BullMQ-Prod-VM-public-ip"
+    },
+    "virtualMachines_Postgres_Prod_VM_name": {
+      "value": "Postgres-Prod-VM"
+    },
+    "virtualMachines_Redis_Cache_Prod_VM_name": {
+      "value": "Redis-Cache-Prod-VM"
+    },
+    "networkInterfaces_vm3_nic_name": {
+      "value": "vm3-nic"
+    },
+    "networkInterfaces_Shopify_nic_name": {
+      "value": "Shopify-nic"
+    },
+    "publicIPAddresses_ems_node_public_ip_prod_name": {
+      "value": "ems-node-public-ip-prod"
+    },
+    "networkInterfaces_vm1_nic_name": {
+      "value": "vm1-nic"
+    },
+    "networkSecurityGroups_vm_instances_sg_name": {
+      "value": "vm-instances-sg"
+    },
+    "applicationGateways_ems_node_v2_app_gateway_prod_name": {
+      "value": "ems-node-v2-app-gateway-prod"
+    },
+    "profiles_ems_webapp_cdn_profile_name": {
+      "value": "ems-webapp-cdn-profile"
+    },
+    "networkInterfaces_vm5_nic_name": {
+      "value": "vm5-nic"
+    },
+    "managedEnvironments_ems_node_v2_container_app_env_prod_name": {
+      "value": "ems-node-v2-container-app-env-prod"
+    },
+    "publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name": {
+      "value": "Redis-Cache-Prod-VM-public-ip"
+    },
+    "userAssignedIdentities_ems_celery_container_app_identity_prod_name": {
+      "value": "ems-celery-container-app-identity-prod"
+    },
+    "virtualMachines_OpenTelemetry_Prod_VM_name": {
+      "value": "OpenTelemetry-Prod-VM"
+    },
+    "virtualMachines_EMS_Shopify_Prod_VM_name": {
+      "value": "EMS-Shopify-Prod-VM"
+    },
+    "publicIPAddresses_ems_node_v2_public_ip_prod_name": {
+      "value": "ems-node-v2-public-ip-prod"
+    },
+    "containerapps_ems_node_v2_container_app_prod_name": {
+      "value": "ems-node-v2-container-app-prod"
+    },
+    "storageAccounts_emsproductionperfdiag336_name": {
+      "value": "emsproductionperfdiag336"
+    },
+    "registries_emsnoderegistryprod_name": {
+      "value": "emsnoderegistryprod"
+    },
+    "publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name": {
+      "value": "EMS-Shopify-Prod-VM-public-ip"
+    },
+    "profiles_ems_admin_webapp_cdn_profile_name": {
+      "value": "ems-admin-webapp-cdn-profile"
+    },
+    "publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name": {
+      "value": "OpenTelemetry-Prod-VM-public-ip"
+    },
+    "userAssignedIdentities_ems_node_v2_container_app_identity_prod_name": {
+      "value": "ems-node-v2-container-app-identity-prod"
+    },
+    "workspaces_ems_node_log_analytics_workspace_prod_name": {
+      "value": "ems-node-log-analytics-workspace-prod"
+    },
+    "userAssignedIdentities_ems_django_container_app_identity_prod_name": {
+      "value": "ems-django-container-app-identity-prod"
+    },
+    "staticSites_ems_web_next_prod_name": {
+      "value": "ems-web-next-prod"
+    },
+    "workspaces_ems_node_v2_log_analytics_workspace_prod_name": {
+      "value": "ems-node--v2-log-analytics-workspace-prod"
+    },
+    "managedEnvironments_ems_node_container_app_env_prod_name": {
+      "value": "ems-node-container-app-env-prod"
+    }
+  }
+}
