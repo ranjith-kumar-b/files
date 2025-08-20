@@ -47,109 +47,140 @@ param workspaces_ems_node_v2_log_analytics_workspace_prod_name string = 'ems-nod
 param managedEnvironments_ems_node_container_app_env_prod_name string = 'ems-node-container-app-env-prod'
 
 // === MODULES ===
-// identity module
+// Deploy identity module
 module identity './identity.bicep' = {
   name: 'identity-deployment'
   params: {
+    userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name: userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name
+    userAssignedIdentities_ems_node_container_app_identity_prod_name: userAssignedIdentities_ems_node_container_app_identity_prod_name
     userAssignedIdentities_ems_celery_container_app_identity_prod_name: userAssignedIdentities_ems_celery_container_app_identity_prod_name
     userAssignedIdentities_ems_node_v2_container_app_identity_prod_name: userAssignedIdentities_ems_node_v2_container_app_identity_prod_name
-    userAssignedIdentities_ems_node_container_app_identity_prod_name: userAssignedIdentities_ems_node_container_app_identity_prod_name
-    userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name: userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name
     userAssignedIdentities_ems_django_container_app_identity_prod_name: userAssignedIdentities_ems_django_container_app_identity_prod_name
   }
 }
 
-// networking module
+// Deploy networking module
 module networking './networking.bicep' = {
   name: 'networking-deployment'
   params: {
-    applicationGateways_ems_node_app_gateway_prod_name: applicationGateways_ems_node_app_gateway_prod_name
-    networkInterfaces_vm5_nic_name: networkInterfaces_vm5_nic_name
-    publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name: publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name
-    publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name: publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name
-    networkSecurityGroups_vm_instances_sg_name: networkSecurityGroups_vm_instances_sg_name
-    publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name: publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name
-    networkInterfaces_vm1_nic_name: networkInterfaces_vm1_nic_name
-    networkInterfaces_Shopify_nic_name: networkInterfaces_Shopify_nic_name
-    networkInterfaces_vm2_nic_name: networkInterfaces_vm2_nic_name
-    publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name: publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name
-    publicIPAddresses_ems_node_v2_public_ip_prod_name: publicIPAddresses_ems_node_v2_public_ip_prod_name
     publicIPAddresses_Postgres_Prod_VM_public_ip_name: publicIPAddresses_Postgres_Prod_VM_public_ip_name
     virtualNetworks_ems_virtual_network_prod_name: virtualNetworks_ems_virtual_network_prod_name
+    publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name: publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name
     publicIPAddresses_ems_node_public_ip_prod_name: publicIPAddresses_ems_node_public_ip_prod_name
-    networkInterfaces_vm3_nic_name: networkInterfaces_vm3_nic_name
-    applicationGateways_ems_node_v2_app_gateway_prod_name: applicationGateways_ems_node_v2_app_gateway_prod_name
-    networkSecurityGroups_vm_instances_sg_name_Allow_All_Outbound_id: misc.outputs.networkSecurityGroups_vm_instances_sg_name_Allow_All_Outbound_id
+    networkSecurityGroups_vm_instances_sg_name: networkSecurityGroups_vm_instances_sg_name
+    publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name: publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name
+    publicIPAddresses_ems_node_v2_public_ip_prod_name: publicIPAddresses_ems_node_v2_public_ip_prod_name
+    publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name: publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name
+    publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name: publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name
+    applicationGateways_ems_node_app_gateway_prod_name_resourceId: networking-advanced.outputs.applicationGateways_ems_node_app_gateway_prod_name_resourceId
+    applicationGateways_ems_node_app_gateway_prod_name_resourceName: networking-advanced.outputs.applicationGateways_ems_node_app_gateway_prod_name_resourceName
+    applicationGateways_ems_node_v2_app_gateway_prod_name_resourceId: networking-advanced.outputs.applicationGateways_ems_node_v2_app_gateway_prod_name_resourceId
+    applicationGateways_ems_node_v2_app_gateway_prod_name_resourceName: networking-advanced.outputs.applicationGateways_ems_node_v2_app_gateway_prod_name_resourceName
   }
+  dependsOn: [
+    networking-advanced
+  ]
 }
 
-// storage module
+// Deploy networking-advanced module
+module networking-advanced './networking-advanced.bicep' = {
+  name: 'networking-advanced-deployment'
+  params: {
+    applicationGateways_ems_node_app_gateway_prod_name: applicationGateways_ems_node_app_gateway_prod_name
+    networkInterfaces_vm2_nic_name: networkInterfaces_vm2_nic_name
+    networkInterfaces_vm3_nic_name: networkInterfaces_vm3_nic_name
+    networkInterfaces_Shopify_nic_name: networkInterfaces_Shopify_nic_name
+    networkInterfaces_vm1_nic_name: networkInterfaces_vm1_nic_name
+    applicationGateways_ems_node_v2_app_gateway_prod_name: applicationGateways_ems_node_v2_app_gateway_prod_name
+    networkInterfaces_vm5_nic_name: networkInterfaces_vm5_nic_name
+    publicIPAddresses_ems_node_public_ip_prod_name_resourceId: networking.outputs.publicIPAddresses_ems_node_public_ip_prod_name_resourceId
+    publicIPAddresses_ems_node_public_ip_prod_name_resourceName: networking.outputs.publicIPAddresses_ems_node_public_ip_prod_name_resourceName
+    publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name_resourceId: networking.outputs.publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name_resourceId
+    publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name_resourceName: networking.outputs.publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name_resourceName
+    networkSecurityGroups_vm_instances_sg_name_resourceId: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceId
+    networkSecurityGroups_vm_instances_sg_name_resourceName: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceName
+    networkSecurityGroups_vm_instances_sg_name_resourceId: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceId
+    networkSecurityGroups_vm_instances_sg_name_resourceName: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceName
+    publicIPAddresses_Postgres_Prod_VM_public_ip_name_resourceId: networking.outputs.publicIPAddresses_Postgres_Prod_VM_public_ip_name_resourceId
+    publicIPAddresses_Postgres_Prod_VM_public_ip_name_resourceName: networking.outputs.publicIPAddresses_Postgres_Prod_VM_public_ip_name_resourceName
+    publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name_resourceId: networking.outputs.publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name_resourceId
+    publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name_resourceName: networking.outputs.publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name_resourceName
+    networkSecurityGroups_vm_instances_sg_name_resourceId: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceId
+    networkSecurityGroups_vm_instances_sg_name_resourceName: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceName
+    networkSecurityGroups_vm_instances_sg_name_resourceId: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceId
+    networkSecurityGroups_vm_instances_sg_name_resourceName: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceName
+    publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name_resourceId: networking.outputs.publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name_resourceId
+    publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name_resourceName: networking.outputs.publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name_resourceName
+    networkSecurityGroups_vm_instances_sg_name_resourceId: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceId
+    networkSecurityGroups_vm_instances_sg_name_resourceName: networking.outputs.networkSecurityGroups_vm_instances_sg_name_resourceName
+    publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name_resourceId: networking.outputs.publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name_resourceId
+    publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name_resourceName: networking.outputs.publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name_resourceName
+    publicIPAddresses_ems_node_v2_public_ip_prod_name_resourceId: networking.outputs.publicIPAddresses_ems_node_v2_public_ip_prod_name_resourceId
+    publicIPAddresses_ems_node_v2_public_ip_prod_name_resourceName: networking.outputs.publicIPAddresses_ems_node_v2_public_ip_prod_name_resourceName
+  }
+  dependsOn: [
+    networking
+  ]
+}
+
+// Deploy storage module
 module storage './storage.bicep' = {
   name: 'storage-deployment'
   params: {
-    storageAccounts_emsproductionperfdiag336_name: storageAccounts_emsproductionperfdiag336_name
-    storageAccounts_emsproductiondbackups_name: storageAccounts_emsproductiondbackups_name
     storageAccounts_emswebappstorageaccount_name: storageAccounts_emswebappstorageaccount_name
+    storageAccounts_emsproductiondbackups_name: storageAccounts_emsproductiondbackups_name
     storageAccounts_emsadminwebstorage_name: storageAccounts_emsadminwebstorage_name
+    storageAccounts_emsproductionperfdiag336_name: storageAccounts_emsproductionperfdiag336_name
   }
 }
 
-// compute module
+// Deploy compute module
 module compute './compute.bicep' = {
   name: 'compute-deployment'
   params: {
-    virtualMachines_Redis_Cache_Prod_VM_name: virtualMachines_Redis_Cache_Prod_VM_name
-    sshPublicKeys_ems_vm_key_pair_prod_name: sshPublicKeys_ems_vm_key_pair_prod_name
-    virtualMachines_OpenTelemetry_Prod_VM_name: virtualMachines_OpenTelemetry_Prod_VM_name
     virtualMachines_Redis_BullMQ_Prod_VM_name: virtualMachines_Redis_BullMQ_Prod_VM_name
-    virtualMachines_EMS_Shopify_Prod_VM_name: virtualMachines_EMS_Shopify_Prod_VM_name
+    sshPublicKeys_ems_vm_key_pair_prod_name: sshPublicKeys_ems_vm_key_pair_prod_name
     virtualMachines_Postgres_Prod_VM_name: virtualMachines_Postgres_Prod_VM_name
-    networkInterfaces_Shopify_nic_name_resource_id: networking.outputs.networkInterfaces_Shopify_nic_name_resource_id
+    virtualMachines_Redis_Cache_Prod_VM_name: virtualMachines_Redis_Cache_Prod_VM_name
+    virtualMachines_OpenTelemetry_Prod_VM_name: virtualMachines_OpenTelemetry_Prod_VM_name
+    virtualMachines_EMS_Shopify_Prod_VM_name: virtualMachines_EMS_Shopify_Prod_VM_name
+    networkInterfaces_vm3_nic_name_resourceId: networking-advanced.outputs.networkInterfaces_vm3_nic_name_resourceId
+    networkInterfaces_vm3_nic_name_resourceName: networking-advanced.outputs.networkInterfaces_vm3_nic_name_resourceName
+    networkInterfaces_vm5_nic_name_resourceId: networking-advanced.outputs.networkInterfaces_vm5_nic_name_resourceId
+    networkInterfaces_vm5_nic_name_resourceName: networking-advanced.outputs.networkInterfaces_vm5_nic_name_resourceName
+    networkInterfaces_vm2_nic_name_resourceId: networking-advanced.outputs.networkInterfaces_vm2_nic_name_resourceId
+    networkInterfaces_vm2_nic_name_resourceName: networking-advanced.outputs.networkInterfaces_vm2_nic_name_resourceName
+    networkInterfaces_Shopify_nic_name_resourceId: networking-advanced.outputs.networkInterfaces_Shopify_nic_name_resourceId
+    networkInterfaces_Shopify_nic_name_resourceName: networking-advanced.outputs.networkInterfaces_Shopify_nic_name_resourceName
+    networkInterfaces_vm1_nic_name_resourceId: networking-advanced.outputs.networkInterfaces_vm1_nic_name_resourceId
+    networkInterfaces_vm1_nic_name_resourceName: networking-advanced.outputs.networkInterfaces_vm1_nic_name_resourceName
   }
   dependsOn: [
-    networking
+    networking-advanced
   ]
 }
 
-// monitoring module
-module monitoring './monitoring.bicep' = {
-  name: 'monitoring-deployment'
-  params: {
-    workspaces_ems_node_log_analytics_workspace_prod_name: workspaces_ems_node_log_analytics_workspace_prod_name
-    dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name: dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name
-    workspaces_ems_node_v2_log_analytics_workspace_prod_name: workspaces_ems_node_v2_log_analytics_workspace_prod_name
-    virtualMachines_Postgres_Prod_VM_name_resource_id: compute.outputs.virtualMachines_Postgres_Prod_VM_name_resource_id
-    containerapps_ems_node_container_app_prod_name_resource_id: containers.outputs.containerapps_ems_node_container_app_prod_name_resource_id
-    applicationGateways_ems_node_app_gateway_prod_name_resource_id: networking.outputs.applicationGateways_ems_node_app_gateway_prod_name_resource_id
-    profiles_ems_admin_webapp_cdn_profile_name_resource_id: cdn.outputs.profiles_ems_admin_webapp_cdn_profile_name_resource_id
-  }
-  dependsOn: [
-    compute
-    containers
-    networking
-    cdn
-  ]
-}
-
-// containers module
+// Deploy containers module
 module containers './containers.bicep' = {
   name: 'containers-deployment'
   params: {
+    containerapps_ems_node_container_app_prod_name: containerapps_ems_node_container_app_prod_name
     registries_emsnoderegistryv2prod_name: registries_emsnoderegistryv2prod_name
     managedEnvironments_ems_node_v2_container_app_env_prod_name: managedEnvironments_ems_node_v2_container_app_env_prod_name
-    registries_emsnoderegistryprod_name: registries_emsnoderegistryprod_name
     containerapps_ems_node_v2_container_app_prod_name: containerapps_ems_node_v2_container_app_prod_name
+    registries_emsnoderegistryprod_name: registries_emsnoderegistryprod_name
     managedEnvironments_ems_node_container_app_env_prod_name: managedEnvironments_ems_node_container_app_env_prod_name
-    containerapps_ems_node_container_app_prod_name: containerapps_ems_node_container_app_prod_name
-    virtualNetworks_ems_virtual_network_prod_name_subnet2_container_app_node_id: misc.outputs.virtualNetworks_ems_virtual_network_prod_name_subnet2_container_app_node_id
-    userAssignedIdentities_ems_node_container_app_identity_prod_name_resource_id: identity.outputs.userAssignedIdentities_ems_node_container_app_identity_prod_name_resource_id
+    userAssignedIdentities_ems_node_v2_container_app_identity_prod_name_resourceId: identity.outputs.userAssignedIdentities_ems_node_v2_container_app_identity_prod_name_resourceId
+    userAssignedIdentities_ems_node_v2_container_app_identity_prod_name_resourceName: identity.outputs.userAssignedIdentities_ems_node_v2_container_app_identity_prod_name_resourceName
+    userAssignedIdentities_ems_node_container_app_identity_prod_name_resourceId: identity.outputs.userAssignedIdentities_ems_node_container_app_identity_prod_name_resourceId
+    userAssignedIdentities_ems_node_container_app_identity_prod_name_resourceName: identity.outputs.userAssignedIdentities_ems_node_container_app_identity_prod_name_resourceName
   }
   dependsOn: [
     identity
   ]
 }
 
-// web module
+// Deploy web module
 module web './web.bicep' = {
   name: 'web-deployment'
   params: {
@@ -157,12 +188,46 @@ module web './web.bicep' = {
   }
 }
 
-// cdn module
+// Deploy cdn module
 module cdn './cdn.bicep' = {
   name: 'cdn-deployment'
   params: {
     profiles_ems_webapp_cdn_profile_name: profiles_ems_webapp_cdn_profile_name
     profiles_ems_admin_webapp_cdn_profile_name: profiles_ems_admin_webapp_cdn_profile_name
   }
+}
+
+// Deploy monitoring module
+module monitoring './monitoring.bicep' = {
+  name: 'monitoring-deployment'
+  params: {
+    dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name: dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name
+    workspaces_ems_node_log_analytics_workspace_prod_name: workspaces_ems_node_log_analytics_workspace_prod_name
+    workspaces_ems_node_v2_log_analytics_workspace_prod_name: workspaces_ems_node_v2_log_analytics_workspace_prod_name
+    applicationGateways_ems_node_app_gateway_prod_name_resourceId: networking-advanced.outputs.applicationGateways_ems_node_app_gateway_prod_name_resourceId
+    applicationGateways_ems_node_app_gateway_prod_name_resourceName: networking-advanced.outputs.applicationGateways_ems_node_app_gateway_prod_name_resourceName
+    applicationGateways_ems_node_v2_app_gateway_prod_name_resourceId: networking-advanced.outputs.applicationGateways_ems_node_v2_app_gateway_prod_name_resourceId
+    applicationGateways_ems_node_v2_app_gateway_prod_name_resourceName: networking-advanced.outputs.applicationGateways_ems_node_v2_app_gateway_prod_name_resourceName
+    profiles_ems_webapp_cdn_profile_name_resourceId: cdn.outputs.profiles_ems_webapp_cdn_profile_name_resourceId
+    profiles_ems_webapp_cdn_profile_name_resourceName: cdn.outputs.profiles_ems_webapp_cdn_profile_name_resourceName
+    profiles_ems_admin_webapp_cdn_profile_name_resourceId: cdn.outputs.profiles_ems_admin_webapp_cdn_profile_name_resourceId
+    profiles_ems_admin_webapp_cdn_profile_name_resourceName: cdn.outputs.profiles_ems_admin_webapp_cdn_profile_name_resourceName
+    virtualMachines_Redis_Cache_Prod_VM_name_resourceId: compute.outputs.virtualMachines_Redis_Cache_Prod_VM_name_resourceId
+    virtualMachines_Redis_Cache_Prod_VM_name_resourceName: compute.outputs.virtualMachines_Redis_Cache_Prod_VM_name_resourceName
+    virtualMachines_Redis_BullMQ_Prod_VM_name_resourceId: compute.outputs.virtualMachines_Redis_BullMQ_Prod_VM_name_resourceId
+    virtualMachines_Redis_BullMQ_Prod_VM_name_resourceName: compute.outputs.virtualMachines_Redis_BullMQ_Prod_VM_name_resourceName
+    virtualMachines_Postgres_Prod_VM_name_resourceId: compute.outputs.virtualMachines_Postgres_Prod_VM_name_resourceId
+    virtualMachines_Postgres_Prod_VM_name_resourceName: compute.outputs.virtualMachines_Postgres_Prod_VM_name_resourceName
+    containerapps_ems_node_v2_container_app_prod_name_resourceId: containers.outputs.containerapps_ems_node_v2_container_app_prod_name_resourceId
+    containerapps_ems_node_v2_container_app_prod_name_resourceName: containers.outputs.containerapps_ems_node_v2_container_app_prod_name_resourceName
+    containerapps_ems_node_container_app_prod_name_resourceId: containers.outputs.containerapps_ems_node_container_app_prod_name_resourceId
+    containerapps_ems_node_container_app_prod_name_resourceName: containers.outputs.containerapps_ems_node_container_app_prod_name_resourceName
+  }
+  dependsOn: [
+    networking-advanced
+    cdn
+    compute
+    containers
+  ]
 }
 
