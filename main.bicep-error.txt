@@ -1,0 +1,2059 @@
+[{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP028",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP028"
+		}
+	},
+	"severity": 8,
+	"message": "Identifier \"networking\" is declared multiple times. Remove or rename the duplicates.",
+	"source": "bicep",
+	"startLineNumber": 63,
+	"startColumn": 8,
+	"endLineNumber": 63,
+	"endColumn": 18,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP079",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP079"
+		}
+	},
+	"severity": 8,
+	"message": "This expression is referencing its own declaration, which is not allowed.",
+	"source": "bicep",
+	"startLineNumber": 75,
+	"startColumn": 68,
+	"endLineNumber": 75,
+	"endColumn": 78,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 75,
+	"startColumn": 79,
+	"endLineNumber": 75,
+	"endColumn": 87,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP079",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP079"
+		}
+	},
+	"severity": 8,
+	"message": "This expression is referencing its own declaration, which is not allowed.",
+	"source": "bicep",
+	"startLineNumber": 76,
+	"startColumn": 70,
+	"endLineNumber": 76,
+	"endColumn": 80,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 76,
+	"startColumn": 81,
+	"endLineNumber": 76,
+	"endColumn": 89,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP079",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP079"
+		}
+	},
+	"severity": 8,
+	"message": "This expression is referencing its own declaration, which is not allowed.",
+	"source": "bicep",
+	"startLineNumber": 77,
+	"startColumn": 71,
+	"endLineNumber": 77,
+	"endColumn": 81,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 77,
+	"startColumn": 82,
+	"endLineNumber": 77,
+	"endColumn": 90,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP079",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP079"
+		}
+	},
+	"severity": 8,
+	"message": "This expression is referencing its own declaration, which is not allowed.",
+	"source": "bicep",
+	"startLineNumber": 78,
+	"startColumn": 73,
+	"endLineNumber": 78,
+	"endColumn": 83,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 78,
+	"startColumn": 84,
+	"endLineNumber": 78,
+	"endColumn": 92,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP079",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP079"
+		}
+	},
+	"severity": 8,
+	"message": "This expression is referencing its own declaration, which is not allowed.",
+	"source": "bicep",
+	"startLineNumber": 81,
+	"startColumn": 5,
+	"endLineNumber": 81,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 81,
+	"startColumn": 16,
+	"endLineNumber": 81,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP028",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP028"
+		}
+	},
+	"severity": 8,
+	"message": "Identifier \"networking\" is declared multiple times. Remove or rename the duplicates.",
+	"source": "bicep",
+	"startLineNumber": 86,
+	"startColumn": 8,
+	"endLineNumber": 86,
+	"endColumn": 18,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP097",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP097"
+		}
+	},
+	"severity": 8,
+	"message": "Expected a module path string. This should be a relative path to another bicep file, e.g. 'myModule.bicep' or '../parent/myModule.bicep'",
+	"source": "bicep",
+	"startLineNumber": 86,
+	"startColumn": 18,
+	"endLineNumber": 86,
+	"endColumn": 19,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP090",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP090"
+		}
+	},
+	"severity": 8,
+	"message": "This module declaration is missing a file path reference.",
+	"source": "bicep",
+	"startLineNumber": 86,
+	"startColumn": 18,
+	"endLineNumber": 86,
+	"endColumn": 61,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP018",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP018"
+		}
+	},
+	"severity": 8,
+	"message": "Expected the \"=\" character at this location.",
+	"source": "bicep",
+	"startLineNumber": 86,
+	"startColumn": 61,
+	"endLineNumber": 86,
+	"endColumn": 61,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 87,
+	"startColumn": 3,
+	"endLineNumber": 87,
+	"endColumn": 7,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 88,
+	"startColumn": 3,
+	"endLineNumber": 88,
+	"endColumn": 9,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 89,
+	"startColumn": 5,
+	"endLineNumber": 89,
+	"endColumn": 55,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 90,
+	"startColumn": 5,
+	"endLineNumber": 90,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 91,
+	"startColumn": 5,
+	"endLineNumber": 91,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 92,
+	"startColumn": 5,
+	"endLineNumber": 92,
+	"endColumn": 39,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 93,
+	"startColumn": 5,
+	"endLineNumber": 93,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 94,
+	"startColumn": 5,
+	"endLineNumber": 94,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 95,
+	"startColumn": 5,
+	"endLineNumber": 95,
+	"endColumn": 35,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 96,
+	"startColumn": 5,
+	"endLineNumber": 96,
+	"endColumn": 62,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 97,
+	"startColumn": 5,
+	"endLineNumber": 97,
+	"endColumn": 64,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 98,
+	"startColumn": 5,
+	"endLineNumber": 98,
+	"endColumn": 70,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 99,
+	"startColumn": 5,
+	"endLineNumber": 99,
+	"endColumn": 72,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 100,
+	"startColumn": 5,
+	"endLineNumber": 100,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 101,
+	"startColumn": 5,
+	"endLineNumber": 101,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 102,
+	"startColumn": 5,
+	"endLineNumber": 102,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 103,
+	"startColumn": 5,
+	"endLineNumber": 103,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 104,
+	"startColumn": 5,
+	"endLineNumber": 104,
+	"endColumn": 65,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 105,
+	"startColumn": 5,
+	"endLineNumber": 105,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 106,
+	"startColumn": 5,
+	"endLineNumber": 106,
+	"endColumn": 68,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 107,
+	"startColumn": 5,
+	"endLineNumber": 107,
+	"endColumn": 70,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 108,
+	"startColumn": 5,
+	"endLineNumber": 108,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 109,
+	"startColumn": 5,
+	"endLineNumber": 109,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 110,
+	"startColumn": 5,
+	"endLineNumber": 110,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 111,
+	"startColumn": 5,
+	"endLineNumber": 111,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 112,
+	"startColumn": 5,
+	"endLineNumber": 112,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 113,
+	"startColumn": 5,
+	"endLineNumber": 113,
+	"endColumn": 71,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 114,
+	"startColumn": 5,
+	"endLineNumber": 114,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 115,
+	"startColumn": 5,
+	"endLineNumber": 115,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 116,
+	"startColumn": 5,
+	"endLineNumber": 116,
+	"endColumn": 68,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 117,
+	"startColumn": 5,
+	"endLineNumber": 117,
+	"endColumn": 70,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 118,
+	"startColumn": 5,
+	"endLineNumber": 118,
+	"endColumn": 65,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 119,
+	"startColumn": 5,
+	"endLineNumber": 119,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 120,
+	"startColumn": 3,
+	"endLineNumber": 120,
+	"endColumn": 4,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 121,
+	"startColumn": 3,
+	"endLineNumber": 121,
+	"endColumn": 12,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 122,
+	"startColumn": 5,
+	"endLineNumber": 122,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 123,
+	"startColumn": 3,
+	"endLineNumber": 123,
+	"endColumn": 4,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP007",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP007"
+		}
+	},
+	"severity": 8,
+	"message": "This declaration type is not recognized. Specify a metadata, parameter, variable, resource, or output declaration.",
+	"source": "bicep",
+	"startLineNumber": 124,
+	"startColumn": 1,
+	"endLineNumber": 124,
+	"endColumn": 2,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 147,
+	"startColumn": 48,
+	"endLineNumber": 147,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 147,
+	"startColumn": 59,
+	"endLineNumber": 147,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 148,
+	"startColumn": 50,
+	"endLineNumber": 148,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 148,
+	"startColumn": 61,
+	"endLineNumber": 148,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 149,
+	"startColumn": 48,
+	"endLineNumber": 149,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 149,
+	"startColumn": 59,
+	"endLineNumber": 149,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 150,
+	"startColumn": 50,
+	"endLineNumber": 150,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 150,
+	"startColumn": 61,
+	"endLineNumber": 150,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 151,
+	"startColumn": 48,
+	"endLineNumber": 151,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 151,
+	"startColumn": 59,
+	"endLineNumber": 151,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 152,
+	"startColumn": 50,
+	"endLineNumber": 152,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 152,
+	"startColumn": 61,
+	"endLineNumber": 152,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 153,
+	"startColumn": 52,
+	"endLineNumber": 153,
+	"endColumn": 62,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 153,
+	"startColumn": 63,
+	"endLineNumber": 153,
+	"endColumn": 71,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 154,
+	"startColumn": 54,
+	"endLineNumber": 154,
+	"endColumn": 64,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 154,
+	"startColumn": 65,
+	"endLineNumber": 154,
+	"endColumn": 73,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 155,
+	"startColumn": 48,
+	"endLineNumber": 155,
+	"endColumn": 58,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 155,
+	"startColumn": 59,
+	"endLineNumber": 155,
+	"endColumn": 67,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 156,
+	"startColumn": 50,
+	"endLineNumber": 156,
+	"endColumn": 60,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 156,
+	"startColumn": 61,
+	"endLineNumber": 156,
+	"endColumn": 69,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 159,
+	"startColumn": 5,
+	"endLineNumber": 159,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 159,
+	"startColumn": 16,
+	"endLineNumber": 159,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP035",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP035"
+		}
+	},
+	"severity": 8,
+	"message": "The specified \"object\" declaration is missing the following required properties: \"virtualNetworks_ems_virtual_network_prod_name_subnet2_container_app_nodeId\", \"virtualNetworks_ems_virtual_network_prod_name_subnet2_container_app_nodeName\", \"virtualNetworks_ems_virtual_network_prod_name_subnet4_container_app_celery_masterId\", \"virtualNetworks_ems_virtual_network_prod_name_subnet4_container_app_celery_masterName\".",
+	"source": "bicep",
+	"startLineNumber": 166,
+	"startColumn": 3,
+	"endLineNumber": 166,
+	"endColumn": 9,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 207,
+	"startColumn": 68,
+	"endLineNumber": 207,
+	"endColumn": 78,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 207,
+	"startColumn": 79,
+	"endLineNumber": 207,
+	"endColumn": 87,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 208,
+	"startColumn": 70,
+	"endLineNumber": 208,
+	"endColumn": 80,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 208,
+	"startColumn": 81,
+	"endLineNumber": 208,
+	"endColumn": 89,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 209,
+	"startColumn": 71,
+	"endLineNumber": 209,
+	"endColumn": 81,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 209,
+	"startColumn": 82,
+	"endLineNumber": 209,
+	"endColumn": 90,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 210,
+	"startColumn": 73,
+	"endLineNumber": 210,
+	"endColumn": 83,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 210,
+	"startColumn": 84,
+	"endLineNumber": 210,
+	"endColumn": 92,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP062",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP062"
+		}
+	},
+	"severity": 8,
+	"message": "The referenced declaration with name \"networking\" is not valid.",
+	"source": "bicep",
+	"startLineNumber": 227,
+	"startColumn": 5,
+	"endLineNumber": 227,
+	"endColumn": 15,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "BCP057",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/core-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "BCP057"
+		}
+	},
+	"severity": 8,
+	"message": "The name \"advanced\" does not exist in the current context.",
+	"source": "bicep",
+	"startLineNumber": 227,
+	"startColumn": 16,
+	"endLineNumber": 227,
+	"endColumn": 24,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"applicationGateways_ems_node_app_gateway_prod_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 6,
+	"startColumn": 7,
+	"endLineNumber": 6,
+	"endColumn": 57,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"networkInterfaces_vm2_nic_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 10,
+	"startColumn": 7,
+	"endLineNumber": 10,
+	"endColumn": 37,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"networkInterfaces_vm3_nic_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 22,
+	"startColumn": 7,
+	"endLineNumber": 22,
+	"endColumn": 37,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"networkInterfaces_Shopify_nic_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 23,
+	"startColumn": 7,
+	"endLineNumber": 23,
+	"endColumn": 41,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"networkInterfaces_vm1_nic_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 25,
+	"startColumn": 7,
+	"endLineNumber": 25,
+	"endColumn": 37,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"applicationGateways_ems_node_v2_app_gateway_prod_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 27,
+	"startColumn": 7,
+	"endLineNumber": 27,
+	"endColumn": 60,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unused-params",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unused-params"
+		}
+	},
+	"severity": 4,
+	"message": "Parameter \"networkInterfaces_vm5_nic_name\" is declared but never used.",
+	"source": "bicep core linter",
+	"startLineNumber": 29,
+	"startColumn": 7,
+	"endLineNumber": 29,
+	"endColumn": 37,
+	"tags": [
+		1
+	],
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unnecessary-dependson",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unnecessary-dependson"
+		}
+	},
+	"severity": 4,
+	"message": "Remove unnecessary dependsOn entry 'identity'.",
+	"source": "bicep core linter",
+	"startLineNumber": 179,
+	"startColumn": 5,
+	"endLineNumber": 179,
+	"endColumn": 13,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unnecessary-dependson",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unnecessary-dependson"
+		}
+	},
+	"severity": 4,
+	"message": "Remove unnecessary dependsOn entry 'cdn'.",
+	"source": "bicep core linter",
+	"startLineNumber": 228,
+	"startColumn": 5,
+	"endLineNumber": 228,
+	"endColumn": 8,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unnecessary-dependson",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unnecessary-dependson"
+		}
+	},
+	"severity": 4,
+	"message": "Remove unnecessary dependsOn entry 'compute'.",
+	"source": "bicep core linter",
+	"startLineNumber": 229,
+	"startColumn": 5,
+	"endLineNumber": 229,
+	"endColumn": 12,
+	"origin": "extHost1"
+},{
+	"resource": "/c:/Users/HP/Desktop/Jiitak/Jiitak-bicep/bicep-modules/main.bicep",
+	"owner": "_generated_diagnostic_collection_name_#3",
+	"code": {
+		"value": "no-unnecessary-dependson",
+		"target": {
+			"$mid": 1,
+			"path": "/bicep/linter-diagnostics",
+			"scheme": "https",
+			"authority": "aka.ms",
+			"fragment": "no-unnecessary-dependson"
+		}
+	},
+	"severity": 4,
+	"message": "Remove unnecessary dependsOn entry 'containers'.",
+	"source": "bicep core linter",
+	"startLineNumber": 230,
+	"startColumn": 5,
+	"endLineNumber": 230,
+	"endColumn": 15,
+	"origin": "extHost1"
+}]
