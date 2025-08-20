@@ -3,133 +3,133 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "virtualMachines_Redis_BullMQ_Prod_VM_name": {
-      "value": "Redis-BullMQ-Prod-VM"
+      "value": "// TODO: Set value for virtualMachines_Redis_BullMQ_Prod_VM_name (type: string)"
     },
     "applicationGateways_ems_node_app_gateway_prod_name": {
-      "value": "ems-node-app-gateway-prod"
+      "value": "// TODO: Set value for applicationGateways_ems_node_app_gateway_prod_name (type: string)"
     },
     "sshPublicKeys_ems_vm_key_pair_prod_name": {
-      "value": "ems-vm-key-pair-prod"
+      "value": "// TODO: Set value for sshPublicKeys_ems_vm_key_pair_prod_name (type: string)"
     },
     "publicIPAddresses_Postgres_Prod_VM_public_ip_name": {
-      "value": "Postgres-Prod-VM-public-ip"
+      "value": "// TODO: Set value for publicIPAddresses_Postgres_Prod_VM_public_ip_name (type: string)"
     },
     "containerapps_ems_node_container_app_prod_name": {
-      "value": "ems-node-container-app-prod"
+      "value": "// TODO: Set value for containerapps_ems_node_container_app_prod_name (type: string)"
     },
     "networkInterfaces_vm2_nic_name": {
-      "value": "vm2-nic"
+      "value": "// TODO: Set value for networkInterfaces_vm2_nic_name (type: string)"
     },
     "userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name": {
-      "value": "ems-celery-worker-container-app-identity-prod"
+      "value": "// TODO: Set value for userAssignedIdentities_ems_celery_worker_container_app_identity_prod_name (type: string)"
     },
     "virtualNetworks_ems_virtual_network_prod_name": {
-      "value": "ems-virtual-network-prod"
+      "value": "// TODO: Set value for virtualNetworks_ems_virtual_network_prod_name (type: string)"
     },
     "storageAccounts_emswebappstorageaccount_name": {
-      "value": "emswebappstorageaccount"
+      "value": "// TODO: Set value for storageAccounts_emswebappstorageaccount_name (type: string)"
     },
     "storageAccounts_emsproductiondbackups_name": {
-      "value": "emsproductiondbackups"
+      "value": "// TODO: Set value for storageAccounts_emsproductiondbackups_name (type: string)"
     },
     "storageAccounts_emsadminwebstorage_name": {
-      "value": "emsadminwebstorage"
+      "value": "// TODO: Set value for storageAccounts_emsadminwebstorage_name (type: string)"
     },
     "dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name": {
-      "value": "454c340c-51cf-4841-bce7-f0d7aee55663"
+      "value": "// TODO: Set value for dashboards_454c340c_51cf_4841_bce7_f0d7aee55663_name (type: string)"
     },
     "registries_emsnoderegistryv2prod_name": {
-      "value": "emsnoderegistryv2prod"
+      "value": "// TODO: Set value for registries_emsnoderegistryv2prod_name (type: string)"
     },
     "userAssignedIdentities_ems_node_container_app_identity_prod_name": {
-      "value": "ems-node-container-app-identity-prod"
+      "value": "// TODO: Set value for userAssignedIdentities_ems_node_container_app_identity_prod_name (type: string)"
     },
     "publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name": {
-      "value": "Redis-BullMQ-Prod-VM-public-ip"
+      "value": "// TODO: Set value for publicIPAddresses_Redis_BullMQ_Prod_VM_public_ip_name (type: string)"
     },
     "virtualMachines_Postgres_Prod_VM_name": {
-      "value": "Postgres-Prod-VM"
+      "value": "// TODO: Set value for virtualMachines_Postgres_Prod_VM_name (type: string)"
     },
     "virtualMachines_Redis_Cache_Prod_VM_name": {
-      "value": "Redis-Cache-Prod-VM"
+      "value": "// TODO: Set value for virtualMachines_Redis_Cache_Prod_VM_name (type: string)"
     },
     "networkInterfaces_vm3_nic_name": {
-      "value": "vm3-nic"
+      "value": "// TODO: Set value for networkInterfaces_vm3_nic_name (type: string)"
     },
     "networkInterfaces_Shopify_nic_name": {
-      "value": "Shopify-nic"
+      "value": "// TODO: Set value for networkInterfaces_Shopify_nic_name (type: string)"
     },
     "publicIPAddresses_ems_node_public_ip_prod_name": {
-      "value": "ems-node-public-ip-prod"
+      "value": "// TODO: Set value for publicIPAddresses_ems_node_public_ip_prod_name (type: string)"
     },
     "networkInterfaces_vm1_nic_name": {
-      "value": "vm1-nic"
+      "value": "// TODO: Set value for networkInterfaces_vm1_nic_name (type: string)"
     },
     "networkSecurityGroups_vm_instances_sg_name": {
-      "value": "vm-instances-sg"
+      "value": "// TODO: Set value for networkSecurityGroups_vm_instances_sg_name (type: string)"
     },
     "applicationGateways_ems_node_v2_app_gateway_prod_name": {
-      "value": "ems-node-v2-app-gateway-prod"
+      "value": "// TODO: Set value for applicationGateways_ems_node_v2_app_gateway_prod_name (type: string)"
     },
     "profiles_ems_webapp_cdn_profile_name": {
-      "value": "ems-webapp-cdn-profile"
+      "value": "// TODO: Set value for profiles_ems_webapp_cdn_profile_name (type: string)"
     },
     "networkInterfaces_vm5_nic_name": {
-      "value": "vm5-nic"
+      "value": "// TODO: Set value for networkInterfaces_vm5_nic_name (type: string)"
     },
     "managedEnvironments_ems_node_v2_container_app_env_prod_name": {
-      "value": "ems-node-v2-container-app-env-prod"
+      "value": "// TODO: Set value for managedEnvironments_ems_node_v2_container_app_env_prod_name (type: string)"
     },
     "publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name": {
-      "value": "Redis-Cache-Prod-VM-public-ip"
+      "value": "// TODO: Set value for publicIPAddresses_Redis_Cache_Prod_VM_public_ip_name (type: string)"
     },
     "userAssignedIdentities_ems_celery_container_app_identity_prod_name": {
-      "value": "ems-celery-container-app-identity-prod"
+      "value": "// TODO: Set value for userAssignedIdentities_ems_celery_container_app_identity_prod_name (type: string)"
     },
     "virtualMachines_OpenTelemetry_Prod_VM_name": {
-      "value": "OpenTelemetry-Prod-VM"
+      "value": "// TODO: Set value for virtualMachines_OpenTelemetry_Prod_VM_name (type: string)"
     },
     "virtualMachines_EMS_Shopify_Prod_VM_name": {
-      "value": "EMS-Shopify-Prod-VM"
+      "value": "// TODO: Set value for virtualMachines_EMS_Shopify_Prod_VM_name (type: string)"
     },
     "publicIPAddresses_ems_node_v2_public_ip_prod_name": {
-      "value": "ems-node-v2-public-ip-prod"
+      "value": "// TODO: Set value for publicIPAddresses_ems_node_v2_public_ip_prod_name (type: string)"
     },
     "containerapps_ems_node_v2_container_app_prod_name": {
-      "value": "ems-node-v2-container-app-prod"
+      "value": "// TODO: Set value for containerapps_ems_node_v2_container_app_prod_name (type: string)"
     },
     "storageAccounts_emsproductionperfdiag336_name": {
-      "value": "emsproductionperfdiag336"
+      "value": "// TODO: Set value for storageAccounts_emsproductionperfdiag336_name (type: string)"
     },
     "registries_emsnoderegistryprod_name": {
-      "value": "emsnoderegistryprod"
+      "value": "// TODO: Set value for registries_emsnoderegistryprod_name (type: string)"
     },
     "publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name": {
-      "value": "EMS-Shopify-Prod-VM-public-ip"
+      "value": "// TODO: Set value for publicIPAddresses_EMS_Shopify_Prod_VM_public_ip_name (type: string)"
     },
     "profiles_ems_admin_webapp_cdn_profile_name": {
-      "value": "ems-admin-webapp-cdn-profile"
+      "value": "// TODO: Set value for profiles_ems_admin_webapp_cdn_profile_name (type: string)"
     },
     "publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name": {
-      "value": "OpenTelemetry-Prod-VM-public-ip"
+      "value": "// TODO: Set value for publicIPAddresses_OpenTelemetry_Prod_VM_public_ip_name (type: string)"
     },
     "userAssignedIdentities_ems_node_v2_container_app_identity_prod_name": {
-      "value": "ems-node-v2-container-app-identity-prod"
+      "value": "// TODO: Set value for userAssignedIdentities_ems_node_v2_container_app_identity_prod_name (type: string)"
     },
     "workspaces_ems_node_log_analytics_workspace_prod_name": {
-      "value": "ems-node-log-analytics-workspace-prod"
+      "value": "// TODO: Set value for workspaces_ems_node_log_analytics_workspace_prod_name (type: string)"
     },
     "userAssignedIdentities_ems_django_container_app_identity_prod_name": {
-      "value": "ems-django-container-app-identity-prod"
+      "value": "// TODO: Set value for userAssignedIdentities_ems_django_container_app_identity_prod_name (type: string)"
     },
     "staticSites_ems_web_next_prod_name": {
-      "value": "ems-web-next-prod"
+      "value": "// TODO: Set value for staticSites_ems_web_next_prod_name (type: string)"
     },
     "workspaces_ems_node_v2_log_analytics_workspace_prod_name": {
-      "value": "ems-node--v2-log-analytics-workspace-prod"
+      "value": "// TODO: Set value for workspaces_ems_node_v2_log_analytics_workspace_prod_name (type: string)"
     },
     "managedEnvironments_ems_node_container_app_env_prod_name": {
-      "value": "ems-node-container-app-env-prod"
+      "value": "// TODO: Set value for managedEnvironments_ems_node_container_app_env_prod_name (type: string)"
     }
   }
 }
